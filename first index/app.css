@@ -1,0 +1,33 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Calibri;
+    /* font-family: Arial Narrow; */
+    text-decoration: none;
+    outline: none;
+
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    margin: auto;
+    padding: 35px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    color: #FEC544;
+    font-size: 30oxs;
+}
+
+.navbar  ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 13px;
+    text-transform: upper;
+}
